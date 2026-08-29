@@ -441,7 +441,7 @@ const closeModal = () => {
               "leaflet.js"
             ],
             
-            github: "https://github.com/AnangggPamungkasss/web-perdagangan.git"
+            github: "https://github.com/AnangggPamungkasss/web-perdagangan"
           },
 
           {
@@ -472,7 +472,7 @@ const closeModal = () => {
               "html+css"
             ],
 
-            github: "https://github.com/AnangggPamungkasss/web-surat-desa.git"
+            github: "https://github.com/AnangggPamungkasss/surat_desa"
           }
         ],
       },
@@ -832,7 +832,7 @@ const closeModal = () => {
               "Backward Chaining"
             ],
 
-            github: "https://github.com/AnangggPamungkasss/sistem-pakar.git"
+            github: "https://github.com/AnangggPamungkasss/sistem-pakar"
           },
 
           {
@@ -863,7 +863,7 @@ const closeModal = () => {
               "leaflet.js"
             ],
 
-            github: "https://github.com/AnangggPamungkasss/web-perdagangan.git"
+            github: "https://github.com/AnangggPamungkasss/web-perdagangan"
           },
 
           {
@@ -894,7 +894,7 @@ const closeModal = () => {
               "html+css"
             ],
 
-            github: "https://github.com/AnangggPamungkasss/web-surat-desa.git"
+            github: "https://github.com/AnangggPamungkasss/surat_desa"
           }
         ],
       },
