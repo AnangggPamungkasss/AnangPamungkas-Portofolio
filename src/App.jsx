@@ -217,7 +217,7 @@ const closeModal = () => {
         experience: "Pengalaman Kerja",
         projects: "Portofolio",
         skills: "Keahlian",
-        education: "Pendidikan",
+        education: "Pendidikan & Sertifikasi",
         achievements: "Pelatihan & Pencapaian",
         training: "Pelatihan",
         contact: "Kontak",
@@ -305,16 +305,13 @@ const closeModal = () => {
             responsibilities: [
               "Mengedit dan memproduksi konten video menarik menggunakan aplikasi CapCut.",
               "Berdiskusi dan melakukan brainstorming ide konten kreatif bersama pemilik usaha.",
-              "Menyusun konsep visual, pemotongan klip (trimming), serta menambahkan efek dan transisi yang sesuai.",
-              "Memilih serta menyelaraskan musik latar (audio/backsound) dan efek suara agar pas dengan ritme video.",
-              "Menambahkan teks, subtitle, dan elemen grafis untuk meningkatkan keterlibatan audiens.",
-              "Memastikan hasil ekspor video sesuai dengan standar format dan kualitas media sosial yang dituju."
+              "Menyusun konsep visual, pemotongan klip (trimming), serta menambahkan efek,transisi dan elemen grafis yang sesuai."
             ]
           },
 
           {
             date: "September 2024 — Desember 2024",
-            title: "Magang MBKM",
+            title: "Magang",
             company: "Dinas Perdagangan dan Perindustrian Kota Gorontalo",
             employmentType: "Internship",
             location: "Jl. Jendral Sudirman No. 22, Kota Gorontalo",
@@ -364,13 +361,20 @@ const closeModal = () => {
       },
 
       education: {
-        label: "Pendidikan",
+        label: "Pendidikan & Sertifikasi",
         title: "Latar belakang pendidikan.",
         degree: "Sarjana Komputer",
         university: "Universitas Negeri Gorontalo",
         gpa: "IPK 3,60 — Sangat Memuaskan",
         thesis:
           "Sistem Pakar Berbasis Web Untuk Diagnosa Cedera Olahraga Menggunakan Metode Forward Chaining dan Backward Chaining",
+        certificationTitle: "English Proficiency Test (TOEFL)",
+        certificationScores: [
+          { label: "Listening Comprehension", value: "46" },
+          { label: "Structure and Written Expression", value: "42" },
+          { label: "Reading Comprehension and Vocabulary", value: "51" },
+          { label: "Total Score", value: "463" },
+        ],
       },
 
       projects: {
@@ -486,7 +490,7 @@ const closeModal = () => {
             title: "Publikasi Jurnal Ilmiah",
             institution: "Journal of Software Engineering and Communication (JSEC)",
             description:
-              'Publikasi ini membahas penerapan algoritma Naïve Bayes untuk mengklasifikasikan kelayakan mahasiswa dalam memperoleh penurunan UKT berdasarkan kondisi ekonomi. Sistem dikembangkan menggunakan Python dan menghasilkan akurasi sebesar 98% menggunakan RapidMiner serta 96,67% menggunakan Python, sehingga menunjukkan potensi algoritma Naïve Bayes dalam mendukung pengambilan keputusan terkait kelayakan penurunan UKT.'
+              'Berhasil menyusun dan mempublikasikan artikel ilmiah berjudul "Penerapan Algoritma Naive Bayes Pada Klasifikasi Kelayakan Penurunan Ukt Berdasarkan Kondisi Ekonomi Mahasiswa" pada Jurnal JSEC sebagai penulis kedua'
           },
 
           {
@@ -494,7 +498,7 @@ const closeModal = () => {
             title: "Publikasi Jurnal Ilmiah",
             institution: "DEVOTION: Jurnal Pengabdian Pada Masyarakat",
             description:
-              'Publikasi ini membahas pengembangan dan sosialisasi aplikasi SIGAP sebagai solusi untuk membantu Dinas Perdagangan dan Perindustrian Kota Gorontalo dalam mengoptimalkan pengelolaan, analisis, dan penyajian data perdagangan. Aplikasi dikembangkan untuk mengurangi proses pengelolaan data secara manual serta menyediakan visualisasi informasi yang lebih akurat, informatif, dan efisien.'
+              'Berhasil menyusun dan mempublikasikan artikel ilmiah berjudul "Sosialisasi Aplikasi Web Sistem Informasi Grafis dan Analisis Perdagangan (SIGAP) pada Dinas Perdagangan Dan Perindustrian Kota Gorontalo" pada Jurnal DEVOTION sebagai penulis ketiga.'
           },
 
           {
@@ -522,7 +526,7 @@ const closeModal = () => {
           {
             organizer: "Universitas Negeri Gorontalo",
             title: "Pelatihan Dasar TIK",
-            year: "2023",
+            year: "2021",
             description:
               "Pelatihan dasar teknologi informasi yang memberikan pemahaman mengenai penggunaan teknologi dan keterampilan dasar komputer."
           },
@@ -530,7 +534,7 @@ const closeModal = () => {
           {
             organizer: "Progate",
             title: "Kursus Python",
-            year: "2024",
+            year: "2021",
             description:
               "Pembelajaran pemrograman Python melalui platform Progate dengan materi dasar pemrograman dan penyelesaian masalah menggunakan kode."
           },
@@ -538,7 +542,7 @@ const closeModal = () => {
           {
             organizer: "Progate",
             title: "Kursus SQL",
-            year: "2024",
+            year: "2021",
             description:
               "Pembelajaran dasar SQL untuk memahami pengelolaan dan pengambilan data dari database relasional."
           },
@@ -546,7 +550,7 @@ const closeModal = () => {
           {
             organizer: "Gorontalo Creativity Competition",
             title: "Gorontalo Creativity Competition IT Jilid V",
-            year: "2024",
+            year: "2022",
             description:
               "Kegiatan kompetisi bidang teknologi informasi yang menjadi pengalaman dalam mengembangkan kreativitas dan kemampuan teknologi."
           },
@@ -554,7 +558,7 @@ const closeModal = () => {
           {
             organizer: "Kementerian Koperasi dan UKM",
             title: "KEMENKOP UKM — Pelatihan Calon Wirausaha",
-            year: "2024",
+            year: "2022",
             description:
               "Pelatihan yang memberikan wawasan mengenai dasar kewirausahaan dan pengembangan usaha."
           },
@@ -570,7 +574,7 @@ const closeModal = () => {
           {
             organizer: "Universitas Negeri Gorontalo",
             title: "Seminar Anti Plagiarisme",
-            year: "2024",
+            year: "2025",
             description:
               "Seminar mengenai pentingnya integritas akademik dan pencegahan plagiarisme dalam penulisan ilmiah."
           },
@@ -578,17 +582,9 @@ const closeModal = () => {
           {
             organizer: "Universitas Negeri Gorontalo",
             title: "Seminar Penggunaan Artificial Intelligence (AI)",
-            year: "2024",
+            year: "2025",
             description:
               "Seminar yang membahas perkembangan dan pemanfaatan Artificial Intelligence dalam berbagai bidang."
-          },
-      
-          {
-            organizer: "UPA Bahasa Universitas Negeri Gorontalo",
-            title: "English Proficiency Test (TOEFL)",
-            year: "2026",
-            description:
-              "English Proficiency Test sebagai bagian dari pengukuran kemampuan bahasa Inggris."
           }
         ],
       },
@@ -651,7 +647,7 @@ const closeModal = () => {
         title: "ANANG AHMAD AJIE PAMUNGKAS",
         role: "Informatics Engineering Graduate",
         description:
-          "Interested in administration, data management, information systems, and web development. I enjoy using technology to create useful digital solutions.",
+          "A Bachelor’s degree graduate in Informatics Engineering from Gorontalo State University with an interest in administration, data management, and information systems. Possesses experience in project administration, documentation, data processing, and report preparation. Detail-oriented, organized, and a quick learner, with the ability to leverage information technology to enhance work efficiency.",
         projectButton: "Explore Projects",
         cvButton: "Download CV",
         tags: [
@@ -727,16 +723,13 @@ const closeModal = () => {
             responsibilities: [
               "Edited and produced engaging video content using CapCut.",
               "Brainstormed creative content ideas with the business owner.",
-              "Developed visual concepts, trimmed video clips, and applied relevant transitions and effects.",
-              "Selected and synchronized background music and audio effects to match video pacing.",
-              "Added text, subtitles, and graphic elements to enhance audience engagement.",
-              "Ensured exported video files met the formatting and quality standards for social media platforms."
+              "Developing visual concepts, trimming clips, and adding appropriate effects, transitions, and graphic elements."
             ]
           },
 
            {
             date: "September 2024 — December 2024",
-            title: "MBKM Internship",
+            title: "University Internship Program",
             company: "Department of Trade and Industry of Gorontalo City",
             employmentType: "Internship",
             location: "Jl. Jendral Sudirman No. 22, Gorontalo City",
@@ -786,13 +779,20 @@ const closeModal = () => {
       },
 
       education: {
-        label: "Education",
+        label: "Education & Certification",
         title: "Academic background.",
         degree: "Bachelor of Computer Science",
         university: "Universitas Negeri Gorontalo",
         gpa: "GPA 3.60 — Very Satisfactory",
         thesis:
           "Web-Based Expert System for Sports Injury Diagnosis Using Forward Chaining and Backward Chaining",
+         certificationTitle: "English Proficiency Test (TOEFL)",
+        certificationScores: [
+          { label: "Listening Comprehension", value: "46" },
+          { label: "Structure and Written Expression", value: "42" },
+          { label: "Reading Comprehension and Vocabulary", value: "51" },
+          { label: "Total Score", value: "463" },
+        ],
       },
 
       projects: {
@@ -908,7 +908,7 @@ const closeModal = () => {
             title: "Scientific Journal Publication",
             institution: "Journal of Software Engineering and Communication (JSEC)",
             description:
-              'This publication discusses the application of the Naïve Bayes algorithm to classify student eligibility for tuition fee reduction based on economic conditions. Developed using Python, the system achieved 98% accuracy using RapidMiner and 96.67% using Python, demonstrating the potential of the Naïve Bayes algorithm in supporting decision-making processes for tuition fee assistance.'
+              'Successfully authored and published a scientific article titled "Application of the Naive Bayes Algorithm for Classifying Eligibility for UKT Reductions Based on StudentsE "economic Conditions" in the JSEC journal as the second author.'
           },
 
           {
@@ -916,7 +916,7 @@ const closeModal = () => {
             title: "Scientific Journal Publication",
             institution: "DEVOTION: Journal of Community Service",
             description:
-              'This publication discusses the development and outreach of the SIGAP application as a solution to help the Gorontalo City Department of Trade and Industry optimize trade data management, analysis, and presentation. The application was developed to reduce manual data processing while providing more accurate, informative, and efficient data visualizations.'
+              'Successfully authored and published a scientific article titled "Dissemination of the SIGAP (Geographic Information System and Trade Analysis) Web Application at the Gorontalo City Trade and Industry Agency" in the Devotion journal as the third author.'
           },
 
           {
@@ -943,7 +943,7 @@ const closeModal = () => {
           {
             organizer: "Universitas Negeri Gorontalo",
             title: "Basic ICT Training",
-            year: "2023",
+            year: "2021",
             description:
               "Basic information technology training that provides understanding of technology usage and basic computer skills."
           },
@@ -951,7 +951,7 @@ const closeModal = () => {
           {
             organizer: "Progate",
             title: "Python course",
-            year: "2024",
+            year: "2021",
             description:
               "Python programming learning through the Progate platform with basic programming material and problem solving using code."
           },
@@ -959,7 +959,7 @@ const closeModal = () => {
           {
             organizer: "Progate",
             title: "SQL Course",
-            year: "2024",
+            year: "2021",
             description:
               "Basic SQL learning to understand data management and retrieval from relational databases."
           },
@@ -967,7 +967,7 @@ const closeModal = () => {
           {
             organizer: "Gorontalo Creativity Competition",
             title: "Gorontalo Creativity Competition IT Jilid V",
-            year: "2024",
+            year: "2022",
             description:
               "An information technology competition event that became an experience in developing creativity and technology skills."
           },
@@ -975,7 +975,7 @@ const closeModal = () => {
           {
             organizer: "Kementerian Koperasi dan UKM",
             title: "KEMENKOP UKM — Pelatihan Calon Wirausaha",
-            year: "2024",
+            year: "2022",
             description:
               "Training that provides insights on entrepreneurship basics and business development."
           },
@@ -991,7 +991,7 @@ const closeModal = () => {
           {
             organizer: "Universitas Negeri Gorontalo",
             title: "Seminar Anti Plagiarisme",
-            year: "2024",
+            year: "2025",
             description:
               "Seminar on the importance of academic integrity and plagiarism prevention in academic writing."
           },
@@ -999,17 +999,9 @@ const closeModal = () => {
           {
             organizer: "Universitas Negeri Gorontalo",
             title: "Seminar Penggunaan Artificial Intelligence (AI)",
-            year: "2024",
+            year: "2025",
             description:
               "Seminar discussing the development and application of Artificial Intelligence in various fields."
-          },
-        
-          {
-            organizer: "UPA Bahasa Universitas Negeri Gorontalo",
-            title: "English Proficiency Test (TOEFL)",
-            year: "2026",
-            description:
-              "English Proficiency Test as part of measuring English language proficiency."
           }
         ],
       },
@@ -1190,7 +1182,7 @@ const closeModal = () => {
                 {t.hero.projectButton} →
               </a>
 
-              <a href="/cv.pdf" download="CV-Anang-Pamungkas.pdf" className="button secondary">
+              <a href="/CV.pdf" download="CV-Anang-Pamungkas.pdf" className="button secondary">
                 {t.hero.cvButton}
               </a>
 
@@ -1210,7 +1202,7 @@ const closeModal = () => {
             <div className="profile-card">
             <div className="profile-placeholder">
             <img
-              src="/cihuy.jpg"
+              src="/profile.jpg"
               alt="Anang Pamungkas"
             />
           </div>
@@ -1433,7 +1425,7 @@ const closeModal = () => {
               <span className="mini-nav-icon">
                 <Icon name="education" size={14} />
               </span>
-              {isID ? "Pendidikan" : "Education"}
+              {isID ? "Pendidikan & Sertifikasi" : "Education & Certification"}
             </button>
             <button
               type="button"
@@ -1499,21 +1491,39 @@ const closeModal = () => {
 
             <h2>{t.education.title}</h2>
 
-            <div className="education-card">
-              <span>2021 — 2026</span>
+            <div className="education-layout">
+              <div className="education-card">
+                <span>2021 — 2026</span>
 
-              <h3>{t.education.degree}</h3>
+                <h3>{t.education.degree}</h3>
 
-              <h4>{t.education.university}</h4>
+                <h4>{t.education.university}</h4>
 
-              <p>{t.education.gpa}</p>
+                <p>{t.education.gpa}</p>
 
-              <p>
-                <strong>
-                  {isID ? "Skripsi:" : "Thesis:"}
-                </strong>{" "}
-                {t.education.thesis}
-              </p>
+                <p>
+                  <strong>
+                    {isID ? "Skripsi:" : "Thesis:"}
+                  </strong>{" "}
+                  {t.education.thesis}
+                </p>
+              </div>
+
+              <div className="education-certification">
+                <div className="education-certification-header">
+                  <span className="education-certification-badge">TOEFL</span>
+                  <h4>{t.education.certificationTitle}</h4>
+                </div>
+
+                <div className="education-certification-list">
+                  {t.education.certificationScores.map((score) => (
+                    <div key={score.label} className="education-certification-item">
+                      <span>{score.label}</span>
+                      <strong>{score.value}</strong>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
           </section>
         )}
