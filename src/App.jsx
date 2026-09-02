@@ -418,7 +418,10 @@ const closeModal = () => {
             images: [
               "/sigap/sigap-1.png",
               "/sigap/sigap-2.png",
-              "/sigap/sigap-3.png"
+              "/sigap/sigap-3.png",
+              "/sigap/sigap-4.png",
+              "/sigap/sigap-5.png",
+              "/sigap/sigap-6.png"
             ],
         
             description:
@@ -449,7 +452,9 @@ const closeModal = () => {
             images: [
               "/surat-desa/surat-desa-1.png",
               "/surat-desa/surat-desa-2.png",
-              "/surat-desa/surat-desa-3.png"
+              "/surat-desa/surat-desa-3.png",
+              "/surat-desa/surat-desa-4.png",
+              "/surat-desa/surat-desa-5.png"
             ],
 
             description:
@@ -836,7 +841,10 @@ const closeModal = () => {
             images: [
               "/sigap/sigap-1.png",
               "/sigap/sigap-2.png",
-              "/sigap/sigap-3.png"
+              "/sigap/sigap-3.png",
+              "/sigap/sigap-4.png",
+              "/sigap/sigap-5.png",
+              "/sigap/sigap-6.png"
             ],
 
             description:
@@ -867,7 +875,9 @@ const closeModal = () => {
             images: [
               "/surat-desa/surat-desa-1.png",
               "/surat-desa/surat-desa-2.png",
-              "/surat-desa/surat-desa-3.png"
+              "/surat-desa/surat-desa-3.png",
+              "/surat-desa/surat-desa-4.png",
+              "/surat-desa/surat-desa-5.png"
             ],
 
             description:
