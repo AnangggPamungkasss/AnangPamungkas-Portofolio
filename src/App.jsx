@@ -1178,7 +1178,7 @@ const closeModal = () => {
                 {t.hero.projectButton} →
               </a>
 
-              <a href="/CV.pdf" download="CV-Anang-Pamungkas.pdf" className="button secondary">
+              <a href="/cv.pdf" download="CV-Anang-Pamungkas.pdf" className="button secondary">
                 {t.hero.cvButton}
               </a>
 
