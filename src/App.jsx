@@ -896,7 +896,7 @@ const closeModal = () => {
       },
 
      achievements: {
-        label: "Training & Achievements",
+        label: "Achievements",
         title: "Some of my achievements.",
         items: [
           {
@@ -933,7 +933,7 @@ const closeModal = () => {
         ]
       },
       training: {
-        label: "Training & Certification",
+        label: "Training",
         title: "Learning and development.",
         items: [
           {
@@ -1011,28 +1011,28 @@ const closeModal = () => {
           {
             platform: "Email",
             name: "pamungkasanang9977@gmail.com", // Ganti dengan email Anda
-            actionText: "Hubungi",
+            actionText: "Contact",
             url: "https://mail.google.com/mail/?view=cm&fs=1&to=pamungkasanang9977@gmail.com", // Ganti dengan email Anda
             icon: "email"
           },
           {
             platform: "LinkedIn",
             name: "Anang Pamungkas",
-            actionText: "Lihat",
+            actionText: "Visit",
             url: "https://www.linkedin.com/in/username-anda", // Ganti link LinkedIn Anda
             icon: "linkedin"
           },
           {
             platform: "Instagram",
             name: "@anang_pamungkas.99", // Ganti username Instagram Anda
-            actionText: "Lihat",
+            actionText: "Visit",
             url: "https://www.instagram.com/anang_pamungkas.99", // Ganti link Instagram Anda
             icon: "instagram"
           },
           {
             platform: "TikTok",
             name: "@noct.arion88", // Ganti username TikTok Anda
-            actionText: "Lihat",
+            actionText: "Visit",
             url: "https://www.tiktok.com/@noct.arion88", // Ganti link TikTok Anda
             icon: "tiktok"
           }
