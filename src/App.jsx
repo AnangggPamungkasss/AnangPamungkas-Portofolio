@@ -157,7 +157,6 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
   const [activeProfileTab, setActiveProfileTab] = useState("skills");
-  const[modalType, setModalType] = useState(null);
   const [darkMode, setDarkMode] = useState(() => {
     return localStorage.getItem("theme") !== "light";
   });
@@ -180,7 +179,6 @@ function App() {
     const handleEscape = (event) => {
       if (event.key === "Escape") {
         setSelectedItem(null);
-      setModalType(null);
       }
     };
 
@@ -199,14 +197,12 @@ useEffect(() => {
   };
 }, [selectedItem]);
 
-const openModal = (item, type) => {
+const openModal = (item) => {
   setSelectedItem(item);
-  setModalType(type);
 };
 
 const closeModal = () => {
   setSelectedItem(null);
-  setModalType(null);
 };
 
   const content = {
@@ -482,7 +478,7 @@ const closeModal = () => {
       },
 
       achievements: {
-        label: "Pelatihan & Pencapaian",
+        label: "Pencapaian",
         title: "Beberapa pencapaian saya.",
         items: [
            {
@@ -520,7 +516,7 @@ const closeModal = () => {
       },
 
       training: {
-        label: "Pelatihan & Sertifikasi",
+        label: "Pelatihan",
         title: "Pembelajaran dan pengembangan diri.",
         items: [
           {
@@ -1242,7 +1238,7 @@ const closeModal = () => {
           <h2>{t.experience.title}</h2>
 
           <div className="timeline">
-  {t.experience.items.map((item, index) => (
+  {t.experience.items.slice().reverse().map((item, index) => (
     <article className="timeline-item" key={index}>
 
       {/* TIMELINE */}
@@ -1336,7 +1332,7 @@ const closeModal = () => {
       type="button"
       className="project-card"
       key={index}
-      onClick={() => openModal(project, "project")}
+      onClick={() => openModal(project)}
       aria-label={`${project.title} - ${isID ? "Lihat detail" : "View details"}`}
     >
       {project.images && project.images.length > 0 && (
@@ -1403,7 +1399,6 @@ const closeModal = () => {
               </span>
               {t.nav.profile}
             </p>
-            <h2>{t.skills.title}</h2>
           </div>
 
           <nav className="mini-nav" aria-label="Profile navigation">
@@ -1571,7 +1566,7 @@ const closeModal = () => {
               <h2>{t.training.title}</h2>
 
               <div className="training-list">
-                {t.training.items.map((item, index) => (
+                {t.training.items.slice().reverse().map((item, index) => (
                   <div className="training-item" key={index}>
                     <div className="training-header">
                       <div>
@@ -1701,23 +1696,6 @@ const closeModal = () => {
         <div className="detail-modal-body">
 
           <h2 className="detail-modal-title">{selectedItem.title}</h2>
-
-          {selectedItem.images &&
-            selectedItem.images.length > 0 && (
-              <div className="detail-modal-images">
-                {selectedItem.images.map((image, index) => (
-                  <div
-                    className="detail-modal-image"
-                    key={`${image}-${index}`}
-                  >
-                    <img
-                      src={image}
-                      alt={`${selectedItem.title} - ${index + 1}`}
-                    />
-                  </div>
-                ))}
-              </div>
-            )}
 
           <div className="detail-modal-meta">
             {selectedItem.technologies && (
