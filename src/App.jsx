@@ -607,7 +607,7 @@ const closeModal = () => {
             platform: "LinkedIn",
             name: "Anang Pamungkas",
             actionText: "Lihat",
-            url: "https://www.linkedin.com/in/username-anda", // Ganti link LinkedIn Anda
+            url: "https://www.linkedin.com/in/anang-pamungkas-654535433", // Ganti link LinkedIn Anda
             icon: "linkedin"
           },
           {
@@ -1029,7 +1029,7 @@ const closeModal = () => {
             platform: "LinkedIn",
             name: "Anang Pamungkas",
             actionText: "Visit",
-            url: "https://www.linkedin.com/in/username-anda", // Ganti link LinkedIn Anda
+            url: "https://www.linkedin.com/in/anang-pamungkas-654535433", // Ganti link LinkedIn Anda
             icon: "linkedin"
           },
           {
