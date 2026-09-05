@@ -412,7 +412,46 @@ const closeModal = () => {
             
             github: "https://github.com/AnangggPamungkasss/sistem-pakar.git"
           },
-        
+
+          {
+            title: "ARSIPIN — Sistem Manajemen Arsip Digital",
+            images: [
+              "/arsipin/arsipin-1.png",
+              "/arsipin/arsipin-2.png",
+              "/arsipin/arsipin-3.png",
+              "/arsipin/arsipin-4.png",
+              "/arsipin/arsipin-5.png",
+              "/arsipin/arsipin-6.png",
+              "/arsipin/arsipin-7.png",
+              "/arsipin/arsipin-8.png",
+              "/arsipin/arsipin-9.png"
+            ],
+
+            description:
+              "Sistem manajemen arsip digital berbasis web yang dirancang untuk membantu organisasi dalam mengelola, menyimpan, mencari, dan memantau dokumen secara terstruktur dan terpusat.",
+
+            detail:
+              "ARSIPIN merupakan aplikasi pengelolaan arsip digital yang dikembangkan menggunakan Laravel. Sistem ini menyediakan fitur manajemen arsip, kategori dan klasifikasi, pencarian serta filter dokumen, upload dan preview file, download arsip, peminjaman dan pengembalian arsip, manajemen pengguna berbasis role, activity log, serta recycle bin. Sistem juga menerapkan pembatasan akses berdasarkan role pengguna untuk menjaga keamanan dan keteraturan pengelolaan dokumen.",
+
+            problem:
+              "Pengelolaan arsip secara manual dapat menyebabkan dokumen sulit ditemukan, pencatatan tidak terstruktur, risiko kehilangan data, serta kesulitan dalam memantau aktivitas pengguna dan status peminjaman dokumen. Selain itu, pencarian dokumen dalam jumlah besar membutuhkan waktu yang cukup lama apabila tidak didukung oleh sistem pengelolaan yang terorganisir.",
+
+            solution:
+              "ARSIPIN menyediakan platform terpusat untuk mengelola arsip secara digital. Pengguna dapat menyimpan dokumen, mengelompokkan arsip berdasarkan kategori dan klasifikasi, melakukan pencarian dan filter, melihat preview dokumen, serta mengunduh file sesuai hak akses. Sistem juga menyediakan fitur peminjaman arsip, activity log, recycle bin, dan manajemen pengguna berbasis role sehingga proses administrasi arsip menjadi lebih terstruktur, efisien, dan mudah dipantau.",
+
+            technologies: [
+              "Laravel",
+              "PHP",
+              "MySQL",
+              "Tailwind CSS",
+              "JavaScript",
+              "Blade",
+              "Vite"
+            ],
+
+            github: "https://github.com/AnangggPamungkasss/arsipin.git"
+          },
+
           {
             title: "Sistem Informasi Grafis dan Analisis Perdagangan (SIGAP)",
             images: [
@@ -834,6 +873,45 @@ const closeModal = () => {
             ],
 
             github: "https://github.com/AnangggPamungkasss/sistem-pakar"
+          },
+
+          {
+            title: "ARSIPIN — Digital Archive Management System",
+            images: [
+              "/arsipin/arsipin-1.png",
+              "/arsipin/arsipin-2.png",
+              "/arsipin/arsipin-3.png",
+              "/arsipin/arsipin-4.png",
+              "/arsipin/arsipin-5.png",
+              "/arsipin/arsipin-6.png",
+              "/arsipin/arsipin-7.png",
+              "/arsipin/arsipin-8.png",
+              "/arsipin/arsipin-9.png"
+            ],
+
+            description:
+              "A web-based digital archive management system designed to help organizations manage, store, search, and monitor documents in a structured and centralized manner.",
+
+            detail:
+              "ARSIPIN is a digital archive management application developed using Laravel. The system provides features for archive management, category and classification management, document search and filtering, file upload and preview, archive downloads, archive borrowing and returns, role-based user management, activity logs, and a recycle bin. The system also implements role-based access control to ensure the security and proper management of documents.",
+
+            problem:
+              "Manual archive management can make documents difficult to find, lead to unstructured record-keeping, increase the risk of data loss, and make it difficult to monitor user activities and document borrowing status. In addition, searching through a large number of documents can be time-consuming without an organized document management system.",
+
+            solution:
+              "ARSIPIN provides a centralized platform for managing digital archives. Users can store documents, organize archives based on categories and classifications, search and filter documents, preview files, and download documents according to their access permissions. The system also provides archive borrowing, activity logging, a recycle bin, and role-based user management, making the archive administration process more structured, efficient, and easier to monitor.",
+
+            technologies: [
+              "Laravel",
+              "PHP",
+              "MySQL",
+              "Tailwind CSS",
+              "JavaScript",
+              "Blade",
+              "Vite"
+            ],
+
+            github: "https://github.com/AnangggPamungkasss/arsipin.git"
           },
 
           {
